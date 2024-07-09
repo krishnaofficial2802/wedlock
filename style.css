@@ -16,6 +16,8 @@ body{
     background-image: 
     /* linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)), */
     url(images/bgm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 main .wed-inv{
@@ -37,21 +39,21 @@ main .banner{
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
-    animation: banner-img 15s infinite;
+    animation: banner-img 15s infinite ease;
 }
 @keyframes
 banner-img {
  25%{
     background-image: url(images/2.jpg);
     background-size: cover;
-    background-position:-320px ;
+    background-position:center ;
     background-repeat: no-repeat;
  }    
 
 50%{
     background-image: url(images/3.jpg);
     background-size: cover;
-    background-position: -270px ;
+    background-position: center ;
     background-repeat: no-repeat;
  }    
 
