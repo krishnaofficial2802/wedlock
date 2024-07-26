@@ -21,9 +21,10 @@ body{
 
 }
 main .wed-inv{
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
     height: 80px;
     border-radius: 20px;
+    box-shadow: inset 0px 0px 20px 5px #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,8 +35,8 @@ main .wed-inv{
 main .banner{
     margin-top: 30px;
     border-radius: 20px;
-    height: 70vh;
-    background-image: url(images/1.jpg);
+    height: 75vh;
+    background-image: url(images/21.jpg);
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
@@ -43,39 +44,41 @@ main .banner{
 }
 @keyframes
 banner-img {
- 25%{
-    background-image: url(images/2.jpg);
+ 33.3%{
+    background-image: url(images/22.jpg);
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
     
  }    
 
-50%{
-    background-image: url(images/3.jpg);
+66.6%{
+    background-image: url(images/23.jpg);
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
  }    
 
-75%{
+/* 75%{
     background-image: url(images/41.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
- }    
+ }     */
 }
 .our-story{
     margin-top: 30px;
     height: 50px;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px black;
 
 }
 .our-story>a>button{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
+    text-decoration:underline;
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -87,12 +90,14 @@ banner-img {
 }
 .wed-names{
     height:60vh;
-    border: 1px solid rgb(0, 0, 0);
+    border: 6;
     border-radius: 20px;
     margin-top: 30px;
     text-align: center;
     text-shadow: 3px 5px 10px rgb(0, 0, 0);
-    color: rgb(211, 211, 211);
+    color: rgb(236, 236, 236);
+    text-shadow:2px 7px 4px black;
+    border: 5px double white;
     letter-spacing: 1.5;
     
     
@@ -115,6 +120,7 @@ banner-img {
 }
 .div-img-f-name{   
     margin-top: 5vh;
+    filter: drop-shadow(0px 0px 1px  white);
 }
 .wed-names h1{
     display: flex;
@@ -126,7 +132,7 @@ banner-img {
     margin-top: 30px;
     /* height: 30vh; */
     border-radius: 20px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 15px 4px white;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)),url(images/mar.jpg);
     color:white;
@@ -139,6 +145,8 @@ banner-img {
 
 .mrg-lctn>h3{
     margin: 20px 0;
+    padding-top: 15px;
+    text-decoration: underline rgb(223, 223, 223) 3px;
     font-family: "Bona Nova SC", serif;
     font-size: 25px;
 }
@@ -167,4 +175,11 @@ banner-img {
 .mrg-lctn>a{
     /* text-decoration: none; */
     color: white;
+    display: flex;
+    justify-content: center;
+}
+.mrg-lctn>a> img{
+    width: 25px;
+    height: 25px;
+    transform: translateY(5px);
 }
