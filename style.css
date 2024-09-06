@@ -36,7 +36,7 @@ main .banner{
     margin-top: 30px;
     border-radius: 20px;
     height: 75vh;
-    background-image: url(images/21.jpg);
+    background-image: url(images/edit-21.jpg);
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ main .banner{
 @keyframes
 banner-img {
  33.3%{
-    background-image: url(images/22.jpg);
+    background-image: url(images/edit-22.jpg);
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ banner-img {
  }    
 
 66.6%{
-    background-image: url(images/23.jpg);
+    background-image: url(images/edit-23.jpg);
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
